@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css"
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><p>THIS IS<br>MY PORFOLIO</p></li>
+            </ul>
+        
+            <div>
+                <ul class="menu-list">
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="projects.html">Projects</a></li>
+                    <li> <a href="about.html">About</a></li>
+                    <li> <a href="contact.html">Contact</a></li>
+                    <li><button class="theme-toggle">Switch to Dark Mode</button></li>
+                </ul>
+                <ul class="menu-icon">
+                    <li> <img src="img/icons/burguer.svg" width="32px"></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section>
+       
+        <article class="article">
+            <div class="content">
+                <h2> Aitor</h2>
+                <h2> Freije Pastur</h2>
+                <p>With over three years of professional experience in UX/UI design, my mission is to create digital experiences that center the user at the core of product development. I have collaborated with multidisciplinary teams to transform technical and business requirements into design solutions that are not only visually appealing, but also functional and SEO optimized.</p>
+                
+                <p>Together with my team, we have managed to balance commercial expectations with genuine and satisfying user interaction, reaffirming my commitment to creating digital products that are not only visually appealing, but also intuitive and accessible.</p>
+            
+            
+            </div>
+            
+            <div class="Portrait"> <img src="img/Frame 160.png">
+            </div>
+        </article>
+
+        </article>
+
+    </section>
+
+    <footer>
+        <div class="logo">
+            <p>THIS IS MY PORFOLIO © 2024</p>
+        </div>
+
+        <div>
+            <ul>
+                <li> <a href="privacy.html">Privacy</a></li>
+                <li> <a href="policy.html">Policy</a></li>
+                <li> <a href="termsofuse.html">Terms of use</a></li>
+            </ul>
+        </div>
+
+    </footer>
+    <script>
+        const toggle = document.querySelector('.theme-toggle');
+        toggle.addEventListener('click', () => {
+          const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', theme);
+        });
+    </script>
+    <script src="js/darkMode.js"></script>
+</body>
+</html>

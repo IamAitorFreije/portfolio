@@ -1,0 +1,186 @@
+@media only screen and (max-width:796px){
+    article{
+        flex-direction: column;
+        gap: 12px;
+        align-content: start;
+
+    }
+
+    article:nth-child(even){
+        flex-direction:column-reverse;
+    }
+
+    .article{
+        margin: 0px 16px 80px 16px;
+    }
+
+    .articleimg{
+        height:240px;
+        overflow: hidden;
+    }
+
+    .article,
+    .articleimg{
+       img{
+        height: 100%;
+        max-width: 100%;
+        object-fit:fill; 
+       }
+    }
+    
+    section .section1{
+        flex-direction: column;
+
+    }
+
+    section{
+        margin: 0px 16px 0px 16px;
+    }
+
+    header{
+        .hero{
+            height:80vh;
+            .heroimg{
+                height: 100%;
+                width: 100%;
+                object-fit: fill;
+            }
+        }
+
+        .center{
+            top:200px;
+            left:20%;
+
+        }
+    }
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    h3{ 
+        font-size:18px;
+
+    }
+
+    /**_______ PROJECTS ______**/
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .project {
+        flex: 1 1 250px;
+        max-width: calc(50% - 2rem);
+    }
+    
+    .articleimg {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+    
+}
+    
+
+@media only screen and (max-width:490px){
+    article{
+        flex-direction: column;
+        gap: 12px;
+        align-content: start;
+    }
+
+    article:nth-child(even){
+        flex-direction:column-reverse;
+    }
+    .article{
+        margin: 0px 16px 32px 16px;
+    }
+
+    .articleimg{
+        height:240px;
+        overflow: hidden;
+    }
+
+    .article,
+    .articleimg{
+       img{
+        height: auto;
+        max-width: 100%;
+        object-fit:fill; 
+       }
+    }
+
+    header{
+        .hero{
+            height:80vh;
+            .heroimg{
+                height: 100%;
+                width: 100%;
+                object-fit: fill;
+            }
+        }
+        .center{
+            top:200px;
+            left:120px;
+
+        }
+    }
+
+    .menu-list{
+        display:none;
+    }
+
+    .menu-icon {
+        display:block !important;
+    }
+
+
+    h1{
+        font-family: Roboto;
+        font-size: 36px;
+        color:#ffffff;
+    }
+    h2{
+        font-family: Roboto;
+        font-size: 20px;
+    }
+    p{
+        font-family: Roboto;
+        font-size: 14px;
+    }
+    span{
+        font-family: Roboto;
+        font-size: 11px;
+
+    }
+
+    /**_______ PROJECTS ______**/
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .project {
+        flex: 1 1 300px;
+        max-width: calc(100% - 2rem);
+    }
+    
+    .articleimg {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    
+    }
+}

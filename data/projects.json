@@ -1,0 +1,79 @@
+{
+    "projects": [
+      {
+        "id": "cheetah-project",
+        "title": "El paso del guepardo",
+        "category": "fotografía de naturaleza",
+        "thumbnail": "img/Cheetah-running.webp",
+        "description": "A captivating study of the cheetah's movement and grace in its natural habitat.",
+        "fullDescription": "This photography project captures the incredible speed and elegance of the cheetah in motion. Using high-speed photography techniques, the series documents the unique biomechanics that make the cheetah the fastest land animal on Earth.",
+        "images": [
+          "img/Cheetah-running.webp",
+          "img/cheetah-closeup.jpg",
+          "img/cheetah-habitat.jpg"
+        ],
+        "techniques": ["High-speed photography", "Wildlife tracking", "Natural lighting"],
+        "year": 2023
+      },
+      {
+        "id": "port-dance",
+        "title": "Danza en el puerto",
+        "category": "fotografía urbana",
+        "thumbnail": "img/fly.avif",
+        "description": "Urban photography capturing the contrast between human movement and industrial architecture.",
+        "fullDescription": "This urban photography series explores the juxtaposition between fluid human movement and the rigid structures of a port environment. The project examines how people interact with and transform industrial spaces through dance and everyday activities.",
+        "images": [
+          "img/fly.avif",
+          "img/port-wide.jpg",
+          "img/dancers-silhouette.jpg"
+        ],
+        "techniques": ["Long exposure", "Urban landscape", "Black and white processing"],
+        "year": 2024
+      },
+      {
+        "id": "cliff-light",
+        "title": "Luz del acantilado",
+        "category": "Pintura paisajistica",
+        "thumbnail": "img/nick-fewings-2o0E8kz1oek-unsplash.jpg",
+        "description": "A landscape painting capturing the dramatic light effects on coastal cliffs.",
+        "fullDescription": "This landscape painting series focuses on the interplay of light and shadow across coastal cliff formations. Using a combination of traditional oil painting techniques and modern color theory, the work explores how natural light transforms landscapes throughout the day.",
+        "images": [
+          "img/nick-fewings-2o0E8kz1oek-unsplash.jpg",
+          "img/cliff-sunset.jpg",
+          "img/cliff-detail.jpg"
+        ],
+        "techniques": ["Oil on canvas", "Plein air", "Atmospheric perspective"],
+        "year": 2022
+      },
+      {
+        "id": "solitude",
+        "title": "Solitude",
+        "category": "Pintura paisajistica",
+        "thumbnail": "img/mountains.avif",
+        "description": "A contemplative mountain landscape exploring themes of isolation and peace.",
+        "fullDescription": "This series of landscape paintings explores the theme of solitude in mountainous environments. The work captures both the intimidating scale of mountains and the sense of peace they can provide, inviting viewers to reflect on their relationship with nature and themselves.",
+        "images": [
+          "img/mountains.avif",
+          "img/mountain-lake.jpg",
+          "img/solitary-peak.jpg"
+        ],
+        "techniques": ["Acrylic on canvas", "Palette knife", "Atmospheric effects"],
+        "year": 2023
+      },
+      {
+        "id": "on-the-road",
+        "title": "En la carretera",
+        "category": "Retrato",
+        "thumbnail": "img/drive.avif",
+        "description": "Portrait series capturing people's expressions and emotions while driving.",
+        "fullDescription": "This portrait project documents the unique expressions and emotions of people while driving. The series explores the car as a personal space where individuals reveal unguarded aspects of their personality, creating an intimate window into human emotion and self-reflection.",
+        "images": [
+          "img/drive.avif",
+          "img/night-drive.jpg",
+          "img/passenger-portrait.jpg"
+        ],
+        "techniques": ["Candid photography", "Natural lighting", "Limited color palette"],
+        "year": 2024
+      }
+    ]
+  }
