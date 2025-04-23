@@ -1,0 +1,370 @@
+/* _______Roboto Fonts_____*/
+
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+/* _______General_____   */
+
+html{
+    scroll-behavior: smooth;
+    max-width:100%;
+   
+}
+
+body{
+    position: relative;
+    object-fit: fill;
+    margin:0px;
+    align-content: center;
+}
+footer{
+    display: flex;
+    background-color:black;
+    padding: 48px;
+    margin: 0px;
+    justify-content: space-between;
+
+    p{
+        color:#ffffff;
+    }
+
+    ul{
+        display:inline-block
+    }
+    a:link { 
+        text-decoration: none; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:#ffffff;
+    } 
+    a:visited { 
+        text-decoration: none; 
+    }
+}
+.logo{ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.error {
+  display: block;
+  color: red;
+  font-size: 12px;    
+  margin-top: -4px; 
+}
+
+
+/* CSS custom properties*/
+:root {
+  /* Light theme variables */
+  --background-color: #ffffff;
+  --text-color: #191919;
+  --header-text: #ffffff;
+  --footer-bg: #000000;
+  --footer-text: #ffffff;
+  --button-border: #191919;
+}
+
+/* Dark mode variables */
+[data-theme="dark"] {
+  --background-color: #282c34;
+  --text-color: #ffffff;
+  --header-text: #ffffff;
+  --footer-bg: #1a1d22; 
+  --footer-text: #ffffff;
+  --button-border: #ffffff;
+}
+
+
+
+/* _________ Specific______*/
+
+body {
+  background-color: var(--background-color);
+  transition: background-color 0.3s ease;
+}
+  
+p {
+  font-family: Roboto;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+  
+h1 {
+  font-family: Roboto;
+  font-size: 64px;
+  color: var(--header-text);
+  transition: color 0.3s ease;
+}
+  
+h2, h3 {
+  font-family: Roboto;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+  
+nav ul a:link {
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+  
+footer {
+  background-color: var(--footer-bg);
+  transition: background-color 0.3s ease;
+}
+  
+footer p, 
+footer a:link {
+  color: var(--footer-text);
+  transition: color 0.3s ease;
+}
+  
+ul.button li {
+  border-color: var(--button-border);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+  }
+
+header{
+  padding: 0%;
+  margin: 0px;
+  margin-bottom: 120px;
+
+  .container {
+      position: relative;
+    }
+    
+    .heroimg { 
+        opacity: 1;
+        width:100%;
+    }
+    
+    .center {
+        position: absolute;
+        top: 260px;
+        left: 30%;
+        text-align: left;
+      }
+    
+    .heroimg{
+        opacity: 1;
+        box-sizing: border-box;
+        object-fit: fill;
+        height: max(700px)
+      
+    }
+}
+
+nav{
+  display: flex;
+  justify-content:  space-between;
+  margin: 0px 0px 0px 24px;
+  align-items: center;
+
+  logo a{
+  font-size: clamp(1.5rem, 3vw, 2.5rem)
+  }
+
+  .menu-icon{
+    display:none;
+  }
+
+
+  ul{
+  padding: 0px;
+  top: 50%;
+  margin-block-end: 0px;
+  margin-block-start:0px;
+
+
+  a:link { 
+    text-decoration: none; 
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color:#191919;
+  } 
+  a:visited { 
+    text-decoration:none; 
+  }
+
+ li{
+    display:inline-block;
+    top: 50%;
+    margin-right: 24px;
+  }
+ }
+}
+
+
+/* Modo oscuro toggle button */
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--text-color);
+  border-radius: 8px;
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 8px 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+
+[data-theme="dark"] span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+[data-theme="dark"] .menu-list {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+[data-theme="dark"] ul.button li:hover {
+  background-color: #ffffff;
+  color: #282c34;
+}
+
+span{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight:500;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+}
+
+article{
+  display: flex;
+  flex-direction: row;
+  margin: 0px 24px 120px 24px;
+  gap: 120px;
+  align-items: center;
+
+  .content{
+    gap: 12px;
+
+    .button {
+      transition-duration: 0.4s;
+    
+    }
+    
+    .button:hover {
+      background-color: #191919;
+      color: white;
+      border-radius: 8px;
+    }
+  }
+}
+
+.articleimg{
+
+  object-fit: fill;
+
+  img{
+    width: 480px;
+    height: 320px;
+    object-fit: fill; 
+   
+  }
+}
+
+.portrait{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+ul.button{
+  display:inline-block;
+  list-style-type: none;
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+
+  
+  li{
+    overflow: hidden;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid;
+    border-color: #191919;
+    border-radius:8px;
+    padding: 8px 16px;
+  }
+}
